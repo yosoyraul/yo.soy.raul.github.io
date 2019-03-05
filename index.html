@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+.selector, x:-moz-any-link, x:default { color:lime; }
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class ="Fixed-Top-Navbar">
+	<a href="#home">Home</a>
+	<a href="#about">About</a>
+	<a href="#contact">Contact</a>
+</div>
+</head>
+<body>
+<div class="parallax-img1 display-container" id = "home">
+<div class="display-middle">
+  <span class="text-center charcoal white-text font-xlarge">yo.soy.raul</span>
+</div>
+</div>
+
+ <!-- Container Section -->
+<article id="About">
+  
+  <h2> ABOUT </h2>
+  <p class = "font-large">
+    Welcome
+  </p>
+  
+</article>
+</body>
+
+
+<!-- Footer -->
+<footer class="charcoal white-text text-center">
+	<div class="  font-large" id="contact">
+    <i class="glyphicon glyphicon-map-marker margin-right"> </i>Dallas-Fort Worth, TX<br>
+    <i class="glyphicon glyphicon-envelope margin-right"> </i>Email: yo.soy.raul@protonmail.com<br>
+<a href="https://twitter.com/VirtuosoDichoso" class="fa fa-twitter "></a><a href="https://www.linkedin.com/in/yo-soy-raul/" class="fa fa-linkedin "></a>
+    </div>
+</footer>
+
+</html>
+
+<style>
+
+
+        @import 
+        url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
+        .charcoal{
+          background:#36454f;
+        }
+        
+        .margin-right{
+          margin-right:16px;
+        }
+        .fa {
+            padding: 12px;
+            font-size: 20px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+                border-radius: 50%;
+        
+        }
+        .fa-instagram {
+            background:white ;
+            color:#36454f;
+        }
+        
+        .fa-twitter {
+           background:white ;
+           color:#36454f;
+        }
+        
+        .fa-linkedin {
+           background:white ;
+           color:#36454f;
+        }
+        
+        .round-large{
+          border-radius:8px;
+        }
+        .grayscale{
+          grayscale:75%;
+        }
+        .opacity{
+          opacity:0.6;
+        }
+        .opacity-min{
+          opacity:.75;
+        }
+        
+        .white-text{
+          color:white;
+        }
+        
+        
+        .display-middle{
+            position:absolute;
+            left:0;
+            top:50%;
+            width:100%;
+            text-align:center;
+        }
+        
+        .display-container{
+          position:relative;
+          min-width:100%;
+            
+         z-index:-1;
+        }
+        
+        
+        .font-xlarge{
+          font-size:36px;
+        }
+        
+        .font-large{
+          font-size:18px;
+        }
+        
+        body,html{
+            height: 100%;
+            color: #36454f;
+            line-height:1.8;
+         
+        }
+        
+        .text-center{
+          text-align:center;
+        }
+        
+        .container{
+          max-width: 100%;
+          background-color:white;
+          padding-left:16px;
+          padding-right:16px;
+          margin:0;  
+        }
+        
+        .grid-center {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        
+        .padding-64{
+          padding-top:64px;
+          padding-bottom:64px;
+        }
+        .padding-32{
+          padding-top:32px;
+          padding-bottom:32px;
+        }
+        
+        .padding-large{
+            padding-top:12px;
+            padding-bottom:12px;
+            padding-left:24px;
+            padding-right:24px;
+        }
+        
+        
+        .Fixed-Top-Navbar{
+            overflow: hidden;
+            background-color: white;
+            position: fixed;
+            top:0;
+            width: 100%;
+        }
+        
+        .Fixed-Top-Navbar a{
+            float: left;
+            display: block;
+            color:#36454f ;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+        }
+        
+        .parallax-img1,.parallax-img2,parallax-img3 {
+            
+            /* Create the parallax scrolling effect */
+            background-attachment:fixed;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size: cover;
+        
+            
+        }
+        
+        .parallax-img1{
+            background-image: url(" https://lh3.googleusercontent.com/fCsOkHSYaAzjLE7vfblwB0_b7PqptLy4dV93tEdGPs8rzbJ5hy8pYV8N29WwNSvDzFBFEx3O7PHdLC2wQkb-JPz6MBVho_2ZhupLcgJZkXgX-tPgWg-Asx2KmBo2SCvBUW4jFmeByeCMFO6mjJOM7qnDINjO_j4Bsfq0pNrLYZEH-P3TtU6RavLm51-4lDP8sOAw8NEcsMVmIsLRErATexdw-XzajJ40ZoX3n4K_z9UuCHI7L3Zj5886bioJrFQcBjL9aUJmZP3pT_RS9rBfO8wMtJGy2sttoVMyK6S2VGsAnN-b3tBmXMC7iNywCovnFwyOSn7vn5xvTu2GHFkF4FWQqB6V-Z5NHZxq2PnkqsbVXL21Ts1vsPT6-MjVh29Wf5c_xCXENQT1FnZe3ykiuwX-D4Hccotuiq3zsp5jNigh8jSIfs98bYxWJOgLOwwQ8KbvMzOuHcjjK5zn8FOynRhq8RBelCBxuEv3Nb79R0WK3RVzVEBSd0494mFSnpzEsXrEC-cVU0goC8NAQI9NO_MjQWjyir1Q2VzmqTDf5hOVYHYYq781I64tCrEEMNpzrcnOPI8PujEl8jbkw0crH4NYjpUq-GuJfxSWf1Ewcg=s918-no");
+            height:100%;
+        }
+        @media only screen and (max-device-width: 1024px) {
+        .parallax-img1 {
+                background-attachment: scroll;
+          }}
+        
+        article {
+          display: grid;
+            grid-template-columns: 1fr 0.5in [start] 7.5in [end] 0.5 1fr;
+        
+          height: 5in; /* temp fix */
+          
+          
+        }
+        
+        article * { grid-column: start/end; }
+        
+        </style>
