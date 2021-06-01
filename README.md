@@ -1,4 +1,4 @@
 # yo.soy.raul.github.io
-Personal GitPage For Blogging
+Personal GitPage 
 
 Preview at https://yosoyraul.github.io/yo.soy.raul.github.io/
